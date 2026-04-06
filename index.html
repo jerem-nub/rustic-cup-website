@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rustic Cup Coffee Co.</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Rustic Cup Coffee Co.</h1>
-    <p>Your go-to place for the best coffee in town!</p>
+    <header>
+        <h1>Welcome to Rustic Cup Coffee Co.</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Explore our range of coffee and pastries!</p>
+        <ul>
+            <li>Espresso</li>
+            <li>Latte</li>
+            <li>Cappuccino</li>
+            <li>Fruit Pastries</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="coffee1.jpg" alt="Coffee Image">
+        <img src="coffee2.jpg" alt="Coffee Image">
+        <img src="coffee3.jpg" alt="Coffee Image">
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <blockquote>
+            <p>The best coffee in town!</p>
+            <cite>– Happy Customer</cite>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rustic Cup Coffee Co.</p>
+    </footer>
 </body>
 </html>
